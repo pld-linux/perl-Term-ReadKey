@@ -2,7 +2,7 @@
 Summary:	Term-ReadKey perl module
 Summary(pl):	Modu³ perla Term-ReadKey
 Name:		perl-Term-ReadKey
-Version:	2.15
+Version:	2.16
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
