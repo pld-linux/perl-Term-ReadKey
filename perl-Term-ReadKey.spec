@@ -7,8 +7,8 @@ Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/Term/TermReadKey-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6.1
+BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	perl-TermReadKey
 
@@ -21,7 +21,11 @@ retrieval/modification of the screen size, and retrieval/modification
 of the control characters.
 
 %description -l pl
-Modu³ perla Term::ReadKey.
+Modu³ perla Term::ReadKey. Modu³ ten daje obs³ugê ioctl dla terminali,
+umo¿liwiaj±c zmianê trybu wej¶cia (co pozwala na czytanie po jednym
+znaku) oraz nieblokuj±cy odczyt z wej¶cia, a tak¿e inne funkcje
+zwi±zane z terminalem, w tym odczytywanie i modyfikowanie rozmiaru
+ekranu oraz odczytywanie i modyfikowanie znaków kontrolnych.
 
 %description -l pt_BR
 Este módulo fornece controle via ioctl para terminais, de tal forma
@@ -44,14 +48,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README
 %{perl_sitearch}/Term/ReadKey.pm
 %dir %{perl_sitearch}/auto/Term/ReadKey
 %{perl_sitearch}/auto/Term/ReadKey/autosplit.ix
