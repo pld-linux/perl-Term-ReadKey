@@ -2,15 +2,15 @@
 Summary:	Term-ReadKey perl module
 Summary(pl):	Modu³ perla Term-ReadKey
 Name:		perl-Term-ReadKey
-Version:	2.14
-Release:	4
+Version:	2.15
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Term/TermReadKey-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
-BuildRequires:	perl >= 5.6
+BuildRequires:	perl >= 5.6.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
