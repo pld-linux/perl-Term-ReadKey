@@ -14,7 +14,7 @@ Summary(fr):	Module Perl Term::ReadKey
 Summary(it):	Modulo di Perl Term::ReadKey
 Summary(ja):	Term::ReadKey Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Term::ReadKey ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Term::ReadKey
+Summary(nb):	Perlmodul Term::ReadKey
 Summary(pl):	Modu³ Perla Term::ReadKey
 Summary(pt):	Módulo de Perl Term::ReadKey
 Summary(pt_BR):	Módulo Perl Term::ReadKey
