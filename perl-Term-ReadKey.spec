@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	Term-ReadKey perl module
-Summary(pl):	Modu³ perla Term-ReadKey
+Summary:	Term::ReadKey perl module
+Summary(pl):	Modu³ perla Term::ReadKey
 Name:		perl-Term-ReadKey
 Version:	2.19
 Release:	1
@@ -21,7 +21,7 @@ retrieval/modification of the screen size, and retrieval/modification
 of the control characters.
 
 %description -l pl
-Modu³ perla Term-ReadKey.
+Modu³ perla Term::ReadKey.
 
 %description -l pt_BR
 Este módulo fornece controle via ioctl para terminais, de tal forma
