@@ -3,7 +3,7 @@ Summary:	Term-ReadKey perl module
 Summary(pl):	Modu³ perla Term-ReadKey
 Name:		perl-Term-ReadKey
 Version:	2.14
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -41,12 +41,9 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc *.gz
-
 %{perl_sitearch}/Term/ReadKey.pm
-
 %dir %{perl_sitearch}/auto/Term/ReadKey
 %{perl_sitearch}/auto/Term/ReadKey/autosplit.ix
 %{perl_sitearch}/auto/Term/ReadKey/ReadKey.bs
 %attr(755,root,root) %{perl_sitearch}/auto/Term/ReadKey/ReadKey.so
-
 %{_mandir}/man3/*
