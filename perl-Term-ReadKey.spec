@@ -44,7 +44,7 @@ retrieval/modification of the screen size, and retrieval/modification
 of the control characters.
 
 %description -l pl
-Modu³ perla Term::ReadKey. Modu³ ten daje obs³ugê ioctl dla terminali,
+Modu³ Perla Term::ReadKey. Modu³ ten daje obs³ugê ioctl dla terminali,
 umo¿liwiaj±c zmianê trybu wej¶cia (co pozwala na czytanie po jednym
 znaku) oraz nieblokuj±cy odczyt z wej¶cia, a tak¿e inne funkcje
 zwi±zane z terminalem, w tym odczytywanie i modyfikowanie rozmiaru
