@@ -1,16 +1,37 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
-Summary:	Term::ReadKey perl module
-Summary(pl):	Modu³ perla Term::ReadKey
+%define		pdir	Term
+%define		pnam	ReadKey
+Summary:	Term::ReadKey Perl module
+Summary(cs):	Modul Term::ReadKey pro Perl
+Summary(da):	Perlmodul Term::ReadKey
+Summary(de):	Term::ReadKey Perl Modul
+Summary(es):	Módulo de Perl Term::ReadKey
+Summary(fr):	Module Perl Term::ReadKey
+Summary(it):	Modulo di Perl Term::ReadKey
+Summary(ja):	Term::ReadKey Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Term::ReadKey ÆÞ ¸ðÁÙ
+Summary(no):	Perlmodul Term::ReadKey
+Summary(pl):	Modu³ Perla Term::ReadKey
+Summary(pt):	Módulo de Perl Term::ReadKey
+Summary(pt_BR):	Módulo Perl Term::ReadKey
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Term::ReadKey
+Summary(sv):	Term::ReadKey Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Term::ReadKey
+Summary(zh_CN):	Term::ReadKey Perl Ä£¿é
 Name:		perl-Term-ReadKey
-Version:	2.20
+Version:	2.21
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/Term/TermReadKey-%{version}.tar.gz
+Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6.1
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-Obsoletes:	perl-TermReadKey
+Obsoletes:	perl-%{pdir}%{pnam}
 
 %description
 This module, ReadKey, provides ioctl control for terminals so the
@@ -43,6 +64,8 @@ controle.
 perl Makefile.PL
 %{__make} OPTIMIZE="%{rpmcflags}"
 
+%{!?_without_tests:%{__make} test}
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
@@ -56,7 +79,8 @@ rm -rf $RPM_BUILD_ROOT
 %doc README
 %{perl_sitearch}/Term/ReadKey.pm
 %dir %{perl_sitearch}/auto/Term/ReadKey
-%{perl_sitearch}/auto/Term/ReadKey/autosplit.ix
+# empty autosplit.ix
+#%{perl_sitearch}/auto/Term/ReadKey/autosplit.ix
 %{perl_sitearch}/auto/Term/ReadKey/ReadKey.bs
 %attr(755,root,root) %{perl_sitearch}/auto/Term/ReadKey/ReadKey.so
 %{_mandir}/man3/*
