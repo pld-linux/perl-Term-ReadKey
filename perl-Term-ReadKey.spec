@@ -1,6 +1,7 @@
 #
 # Conditional build:
 %bcond_with	tests	# perform "make test"
+			# requires terminal
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Term
@@ -25,7 +26,7 @@ Summary(zh_CN):	Term::ReadKey Perl Ä£¿é
 Name:		perl-Term-ReadKey
 Version:	2.21
 Release:	2
-License:	GPL
+License:	BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}%{pnam}-%{version}.tar.gz
 # Source0-md5:	888aabb723b8c21e35c55e979655f08e
@@ -66,7 +67,6 @@ controle.
 	INSTALLDIRS=vendor
 %{__make} OPTIMIZE="%{rpmcflags}"
 
-# tests require terminal
 %{?with_tests:%{__make} test}
 
 %install
