@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl Term::ReadKey
 Summary(zh_CN):	Term::ReadKey Perl дё©И
 Name:		perl-Term-ReadKey
 Version:	2.21
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}%{pnam}-%{version}.tar.gz
