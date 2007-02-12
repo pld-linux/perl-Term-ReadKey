@@ -7,22 +7,22 @@
 %define		pdir	Term
 %define		pnam	ReadKey
 Summary:	Term::ReadKey Perl module
-Summary(cs):	Modul Term::ReadKey pro Perl
-Summary(da):	Perlmodul Term::ReadKey
-Summary(de):	Term::ReadKey Perl Modul
-Summary(es):	Módulo de Perl Term::ReadKey
-Summary(fr):	Module Perl Term::ReadKey
-Summary(it):	Modulo di Perl Term::ReadKey
-Summary(ja):	Term::ReadKey Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Term::ReadKey ÆŞ ¸ğÁÙ
-Summary(nb):	Perlmodul Term::ReadKey
-Summary(pl):	Modu³ Perla Term::ReadKey
-Summary(pt):	Módulo de Perl Term::ReadKey
-Summary(pt_BR):	Módulo Perl Term::ReadKey
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Term::ReadKey
-Summary(sv):	Term::ReadKey Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Term::ReadKey
-Summary(zh_CN):	Term::ReadKey Perl Ä£¿é
+Summary(cs.UTF-8):   Modul Term::ReadKey pro Perl
+Summary(da.UTF-8):   Perlmodul Term::ReadKey
+Summary(de.UTF-8):   Term::ReadKey Perl Modul
+Summary(es.UTF-8):   MÃ³dulo de Perl Term::ReadKey
+Summary(fr.UTF-8):   Module Perl Term::ReadKey
+Summary(it.UTF-8):   Modulo di Perl Term::ReadKey
+Summary(ja.UTF-8):   Term::ReadKey Perl ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«
+Summary(ko.UTF-8):   Term::ReadKey í„ ëª¨ì¤„
+Summary(nb.UTF-8):   Perlmodul Term::ReadKey
+Summary(pl.UTF-8):   ModuÅ‚ Perla Term::ReadKey
+Summary(pt.UTF-8):   MÃ³dulo de Perl Term::ReadKey
+Summary(pt_BR.UTF-8):   MÃ³dulo Perl Term::ReadKey
+Summary(ru.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Term::ReadKey
+Summary(sv.UTF-8):   Term::ReadKey Perlmodul
+Summary(uk.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Term::ReadKey
+Summary(zh_CN.UTF-8):   Term::ReadKey Perl æ¨¡å—
 Name:		perl-Term-ReadKey
 Version:	2.30
 Release:	1
@@ -43,20 +43,20 @@ several other terminal related features, including
 retrieval/modification of the screen size, and retrieval/modification
 of the control characters.
 
-%description -l pl
-Modu³ Perla Term::ReadKey. Modu³ ten daje obs³ugê ioctl dla terminali,
-umo¿liwiaj±c zmianê trybu wej¶cia (co pozwala na czytanie po jednym
-znaku) oraz nieblokuj±cy odczyt z wej¶cia, a tak¿e inne funkcje
-zwi±zane z terminalem, w tym odczytywanie i modyfikowanie rozmiaru
-ekranu oraz odczytywanie i modyfikowanie znaków kontrolnych.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Term::ReadKey. ModuÅ‚ ten daje obsÅ‚ugÄ™ ioctl dla terminali,
+umoÅ¼liwiajÄ…c zmianÄ™ trybu wejÅ›cia (co pozwala na czytanie po jednym
+znaku) oraz nieblokujÄ…cy odczyt z wejÅ›cia, a takÅ¼e inne funkcje
+zwiÄ…zane z terminalem, w tym odczytywanie i modyfikowanie rozmiaru
+ekranu oraz odczytywanie i modyfikowanie znakÃ³w kontrolnych.
 
-%description -l pt_BR
-Este módulo fornece controle via ioctl para terminais, de tal forma
+%description -l pt_BR.UTF-8
+Este mÃ³dulo fornece controle via ioctl para terminais, de tal forma
 que seus modos de entrada possam ser modificados (desta forma
-permitindo a leitura de um caracter somente por vez) e também fornece
-leitura não bloqueantes da entrada padrão (stdin), bem como várias
-outras características relacionadas a terminais, entre elas a
-recuperação/modificação do tamanho da tela e dos caracteres de
+permitindo a leitura de um caracter somente por vez) e tambÃ©m fornece
+leitura nÃ£o bloqueantes da entrada padrÃ£o (stdin), bem como vÃ¡rias
+outras caracterÃ­sticas relacionadas a terminais, entre elas a
+recuperaÃ§Ã£o/modificaÃ§Ã£o do tamanho da tela e dos caracteres de
 controle.
 
 %prep
