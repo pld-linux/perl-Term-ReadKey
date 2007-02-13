@@ -7,22 +7,22 @@
 %define		pdir	Term
 %define		pnam	ReadKey
 Summary:	Term::ReadKey Perl module
-Summary(cs.UTF-8):   Modul Term::ReadKey pro Perl
-Summary(da.UTF-8):   Perlmodul Term::ReadKey
-Summary(de.UTF-8):   Term::ReadKey Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Term::ReadKey
-Summary(fr.UTF-8):   Module Perl Term::ReadKey
-Summary(it.UTF-8):   Modulo di Perl Term::ReadKey
-Summary(ja.UTF-8):   Term::ReadKey Perl モジュール
-Summary(ko.UTF-8):   Term::ReadKey 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Term::ReadKey
-Summary(pl.UTF-8):   Moduł Perla Term::ReadKey
-Summary(pt.UTF-8):   Módulo de Perl Term::ReadKey
-Summary(pt_BR.UTF-8):   Módulo Perl Term::ReadKey
-Summary(ru.UTF-8):   Модуль для Perl Term::ReadKey
-Summary(sv.UTF-8):   Term::ReadKey Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Term::ReadKey
-Summary(zh_CN.UTF-8):   Term::ReadKey Perl 模块
+Summary(cs.UTF-8):	Modul Term::ReadKey pro Perl
+Summary(da.UTF-8):	Perlmodul Term::ReadKey
+Summary(de.UTF-8):	Term::ReadKey Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Term::ReadKey
+Summary(fr.UTF-8):	Module Perl Term::ReadKey
+Summary(it.UTF-8):	Modulo di Perl Term::ReadKey
+Summary(ja.UTF-8):	Term::ReadKey Perl モジュール
+Summary(ko.UTF-8):	Term::ReadKey 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Term::ReadKey
+Summary(pl.UTF-8):	Moduł Perla Term::ReadKey
+Summary(pt.UTF-8):	Módulo de Perl Term::ReadKey
+Summary(pt_BR.UTF-8):	Módulo Perl Term::ReadKey
+Summary(ru.UTF-8):	Модуль для Perl Term::ReadKey
+Summary(sv.UTF-8):	Term::ReadKey Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Term::ReadKey
+Summary(zh_CN.UTF-8):	Term::ReadKey Perl 模块
 Name:		perl-Term-ReadKey
 Version:	2.30
 Release:	1
