@@ -73,6 +73,5 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/Term/ReadKey
 # empty autosplit.ix
 #%%{perl_vendorarch}/auto/Term/ReadKey/autosplit.ix
-%{perl_vendorarch}/auto/Term/ReadKey/ReadKey.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Term/ReadKey/ReadKey.so
 %{_mandir}/man3/*
