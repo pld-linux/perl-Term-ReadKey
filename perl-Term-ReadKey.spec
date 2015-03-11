@@ -16,9 +16,10 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Term/%{pdir}%{pnam}-%{version}.tar.gz
 # Source0-md5:	c55420c3456b8e470a01d6557b1045a8
 URL:		http://search.cpan.org/dist/TermReadKey/
+BuildRequires:	perl-ExtUtils-MakeMaker >= 3.5
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-Obsoletes:	perl-%{pdir}%{pnam}
+Obsoletes:	perl-TermReadKey
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -74,4 +75,4 @@ rm -rf $RPM_BUILD_ROOT
 # empty autosplit.ix
 #%%{perl_vendorarch}/auto/Term/ReadKey/autosplit.ix
 %attr(755,root,root) %{perl_vendorarch}/auto/Term/ReadKey/ReadKey.so
-%{_mandir}/man3/*
+%{_mandir}/man3/Term::ReadKey.3pm*
