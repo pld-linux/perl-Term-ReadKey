@@ -9,12 +9,12 @@
 Summary:	Term::ReadKey - Perl module for simple terminal control
 Summary(pl.UTF-8):	Term::ReadKey - moduł Perla do prostego sterowania terminalem
 Name:		perl-Term-ReadKey
-Version:	2.32
+Version:	2.33
 Release:	1
 License:	BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Term/%{pdir}%{pnam}-%{version}.tar.gz
-# Source0-md5:	c55420c3456b8e470a01d6557b1045a8
+# Source0-md5:	1b60aa12b05b5c59d09061fa03087fdb
 URL:		http://search.cpan.org/dist/TermReadKey/
 BuildRequires:	perl-ExtUtils-MakeMaker >= 3.5
 BuildRequires:	perl-devel >= 1:5.8.0
