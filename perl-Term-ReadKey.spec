@@ -3,7 +3,6 @@
 %bcond_with	tests	# perform "make test"
 			# requires terminal
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Term
 %define		pnam	ReadKey
 Summary:	Term::ReadKey - Perl module for simple terminal control
