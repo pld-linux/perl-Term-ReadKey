@@ -14,10 +14,11 @@ License:	BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Term/%{pdir}%{pnam}-%{version}.tar.gz
 # Source0-md5:	b2b4aab7a0e6bddb7ac3b21ba637482c
-URL:		http://search.cpan.org/dist/TermReadKey/
+URL:		https://metacpan.org/dist/TermReadKey
 BuildRequires:	perl-ExtUtils-MakeMaker >= 3.5
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 Obsoletes:	perl-TermReadKey
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
